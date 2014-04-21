@@ -1,0 +1,10 @@
+<!ELEMENT element ( #PCDATA ) >
+
+<!ELEMENT field ( name, type, element ) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT table ( name, field+ ) >
+
+<!ELEMENT type ( #PCDATA ) >
+
