@@ -1,0 +1,52 @@
+SQL string functions are used primarily for string manipulation.
+The following table details the important string functions:
+Name 	Description
+ASCII() 	Returns numeric value of left-most character
+BIN() 	Returns a string representation of the argument
+BIT_LENGTH() 	Returns length of argument in bits
+CHAR_LENGTH() 	Returns number of characters in argument
+CHAR() 	Returns the character for each integer passed
+CHARACTER_LENGTH() 	A synonym for CHAR_LENGTH()
+CONCAT_WS() 	Returns concatenate with separator
+CONCAT() 	Returns concatenated string
+CONV() 	Converts numbers between different number bases
+ELT() 	Returns string at index number
+EXPORT_SET() 	Returns a string such that for every bit set in the value bits, you get an on string and for every unset bit, you get an off string
+FIELD() 	Returns the index (position) of the first argument in the subsequent arguments
+FIND_IN_SET() 	Returns the index position of the first argument within the second argument
+FORMAT() 	Returns a number formatted to specified number of decimal places
+HEX() 	Returns a string representation of a hex value
+INSERT() 	Inserts a substring at the specified position up to the specified number of characters
+INSTR() 	Returns the index of the first occurrence of substring
+LCASE() 	Synonym for LOWER()
+LEFT() 	Returns the leftmost number of characters as specified
+LENGTH() 	Returns the length of a string in bytes
+LOAD_FILE() 	Loads the named file
+LOCATE() 	Returns the position of the first occurrence of substring
+LOWER() 	Returns the argument in lowercase
+LPAD() 	Returns the string argument, left-padded with the specified string
+LTRIM() 	Removes leading spaces
+MAKE_SET() 	Returns a set of comma-separated strings that have the corresponding bit in bits set
+MID() 	Returns a substring starting from the specified position
+OCT() 	Returns a string representation of the octal argument
+OCTET_LENGTH() 	A synonym for LENGTH()
+ORD() 	If the leftmost character of the argument is a multi-byte character, returns the code for that character
+POSITION() 	A synonym for LOCATE()
+QUOTE() 	Escapes the argument for use in an SQL statement
+REGEXP 	Pattern matching using regular expressions
+REPEAT() 	Repeats a string the specified number of times
+REPLACE() 	Replaces occurrences of a specified string
+REVERSE() 	Reverses the characters in a string
+RIGHT() 	Returns the specified rightmost number of characters
+RPAD() 	Appends string the specified number of times
+RTRIM() 	Removes trailing spaces
+SOUNDEX() 	Returns a soundex string
+SOUNDS LIKE 	Compares sounds
+SPACE() 	Returns a string of the specified number of spaces
+STRCMP() 	Compares two strings
+SUBSTRING_INDEX() 	Returns a substring from a string before the specified number of occurrences of the delimiter
+SUBSTRING(), SUBSTR() 	Returns the substring as specified
+TRIM() 	Removes leading and trailing spaces
+UCASE() 	Synonym for UPPER()
+UNHEX() 	Converts each pair of hexadecimal digits to a character
+UPPER() 	Converts to uppercase
